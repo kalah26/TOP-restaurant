@@ -1,3 +1,6 @@
 import "./style.css";
+import { renderHome } from "./home.js"
+import { renderFooter } from "./footer.js"
 
-console.log("Hello world")
+renderHome()
+renderFooter()
